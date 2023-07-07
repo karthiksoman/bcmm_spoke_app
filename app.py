@@ -1,17 +1,16 @@
 import streamlit as st
 import pandas as pd
-import json
+import pickle
 
 
 DEFAULT_SELECTION = "None"
-MIN_COUNT = 5
-MAX_COUNT = 50
-DEFAULT_COUNT = 10
+DEFAULT_COUNT = 25
+MIN_COUNT = DEFAULT_COUNT
 
 
-with open("data/bcmm_compounds_top_bacteria_with_proximity_score.json", "r") as f:
-    json_data = json.load(f)
-compound_names = list(json_data.keys())
+with open("../bcmm_compounds_all_bacteria_with_proximity_pvalue.pickle", "rb") as f:
+    data = pickle.load(f)
+compound_names = list(data.keys())[:-2]
 compounds_to_remove = ['diacetamate',
  'azetirelin',
  'ipsalazide',
@@ -20,6 +19,7 @@ compounds_to_remove = ['diacetamate',
  'cortisol']
 compound_names = list(set(compound_names) - set(compounds_to_remove))
 compound_names.sort()
+MAX_COUNT = data[compound_names[0]]["embedding"].shape[0]
 
 
 def main():    
@@ -54,12 +54,18 @@ def write_bacteria_table(compound_selected, bacteria_count, sort_by):
                         
                  
 def get_bacteria_table(compound_selected, bacteria_count, sort_by):
+    data_selected = data[compound_selected]
+    data_selected["ncbi_id"] = data["ncbi_id"]
+    data_selected["name"] = data["name"]
+    data_selected_df = pd.DataFrame(data_selected)
+    data_selected_df = data_selected_df[["ncbi_id", "name", "embedding", "p_value"]]
     if sort_by == "embedding score":
-        bacteria_df = pd.DataFrame(json_data[compound_selected]).sort_values(by="percentile_score", ascending=False).head(bacteria_count)
+        bacteria_df = data_selected_df.sort_values(by="embedding", ascending=False).head(bacteria_count)
     else:
-        bacteria_df = pd.DataFrame(json_data[compound_selected]).sort_values(by="proximity_pvalue", ascending=True).head(bacteria_count)
+        bacteria_df = data_selected_df.sort_values(by="p_value", ascending=True).head(bacteria_count)
+        
     bacteria_df.ncbi_id = bacteria_df.ncbi_id.astype(str)    
-    bacteria_df.rename(columns={"ncbi_id": "NCBI ID", "percentile_score": "embedding score", "proximity_pvalue": "proximity pvalue"}, inplace=True)                
+    bacteria_df.rename(columns={"ncbi_id": "NCBI ID", "embedding": "embedding score", "p_value": "proximity pvalue"}, inplace=True)                
     return bacteria_df.reset_index().drop("index", axis=1)
     
 
