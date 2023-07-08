@@ -121,7 +121,6 @@ def plot_bacteria_table(compound_selected):
     fig.update_traces(marker=dict(size=MARKER_SIZE))
     fig.update_traces(showlegend=False)
 
-    # Add desired legend entries
     fig.add_trace(go.Scatter(
         x=[None],
         y=[None],
@@ -140,35 +139,6 @@ def plot_bacteria_table(compound_selected):
     st.plotly_chart(fig)
     
     
-# def plot_bacteria_table(compound_selected):
-#     data_selected = data[compound_selected]
-#     data_selected["ncbi_id"] = data["ncbi_id"]
-#     data_selected["name"] = data["name"]
-#     data_selected_plot = pd.DataFrame(data_selected)
-#     data_selected_plot = data_selected_plot[["ncbi_id", "name", "embedding", "p_value"]]
-#     data_selected_plot["color"] = "gray"
-#     data_selected_plot.loc[data_selected_plot["p_value"] < 0.05, "color"] = "red"
-#     data_selected_plot["size"] = MARKER_SIZE
-#     color_discrete_map = {"gray": "gray", "red": "red"}
-#     fig = px.scatter(data_selected_plot, 
-#                  x="p_value", y="embedding", 
-#                  color="color",
-#                  color_discrete_map=color_discrete_map,
-#                  opacity=FIG_OPACITY, 
-#                  hover_name="name",
-#                  hover_data=["name"]
-#                 )
-#     fig_final = go.Figure(data=fig.data)
-#     fig_final.update_layout(
-#                             margin=dict(l=20, r=20, t=20, b=20),
-#                             width=FIG_WIDTH+100,
-#                             height=FIG_HEIGHT-300,
-#                             showlegend=False,
-#                             xaxis = dict(showgrid = True,showticklabels = True,titlefont=dict(size=FONT_SIZE),title="Proximity p-value"),
-#                             yaxis = dict(showgrid = True,showticklabels = True,titlefont=dict(size=FONT_SIZE),
-#                                         title="Embedding score")
-#                             )
-#     st.plotly_chart(fig_final)
     
                  
 def get_bacteria_table(compound_selected, bacteria_count, sort_by):
