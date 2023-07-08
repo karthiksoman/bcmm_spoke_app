@@ -16,7 +16,7 @@ FONT_SIZE = 18
 LEGEND_SIZE = 12
 
 
-with open("../bcmm_compounds_all_bacteria_with_proximity_pvalue.pickle", "rb") as f:
+with open("data/bcmm_compounds_all_bacteria_with_proximity_pvalue.pickle", "rb") as f:
     data = pickle.load(f)
 compound_names = list(data.keys())[:-2]
 compounds_to_remove = ['diacetamate',
