@@ -127,7 +127,7 @@ def plot_bacteria_table(compound_selected):
         y=[None],
         mode="markers",
         marker=dict(size=MARKER_SIZE, color="red"),
-        name="Bacteria significantly proximal (p_value<0.05) to {} in SPOKE graph".format(compound_selected)
+        name="Bacteria significantly proximal (p-value<0.05) to {} in SPOKE graph".format(compound_selected)
     ))
     fig.add_trace(go.Scatter(
         x=[None],
