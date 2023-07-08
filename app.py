@@ -136,7 +136,7 @@ def plot_bacteria_table(compound_selected):
         marker=dict(size=MARKER_SIZE, color="gray"),
         name="Bacteria NOT significantly proximal to {} in SPOKE graph".format(compound_selected)
     ))
-    st.markdown("<h4 style='text-align: center; color: black;'>Bacterial distribution in embedding and p-value space (associated with {})</h4>".format(compound_selected), unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center; color: black;'>Distribution of entire bacteria in embedding and p-value space (associated with {})</h4>".format(compound_selected), unsafe_allow_html=True)
     st.plotly_chart(fig)
     
     
