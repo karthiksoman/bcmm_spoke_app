@@ -52,9 +52,11 @@ def main():
 
 def sidebar_options():
         bacteria_count = st.sidebar.slider('Bacteria count', MIN_COUNT, MAX_COUNT, DEFAULT_COUNT)
-        sort_by = st.sidebar.selectbox("How to sort", ["embedding score", "proximity pvalue"], index=1)
+        sort_by = st.sidebar.selectbox("How to sort", ["embedding score", "proximity in graph space", "proximity pvalue"], index=0)
+        st.sidebar.markdown("<h4 style='text-align: left; color: black;'>Sorting features</h4>", unsafe_allow_html=True)
         st.sidebar.markdown("<h5 style='text-align: left; color: black;'>embedding score: It represents the relative saliency of a bacterial node to the selected compound (expressed as percentile score)</h5>", unsafe_allow_html=True)
-        st.sidebar.markdown("<h5 style='text-align: left; color: black;'>proximity pvalue: It represents how proximal is the bacterial node to the selected compound in SPOKE graph, compared to a random bacterial node</h5>", unsafe_allow_html=True)
+        st.sidebar.markdown("<h5 style='text-align: left; color: black;'>proximity in graph space: It represents the number of hops (or edges) that the bacteria is away from the compound node in SPOKE graph</h5>", unsafe_allow_html=True)
+        st.sidebar.markdown("<h5 style='text-align: left; color: black;'>proximity pvalue: Statistical significance of the above mentioned 'proximity in graph space'. ie. it represents how proximal the bacterial node is to the selected compound in SPOKE graph, compared to a random bacterial node</h5>", unsafe_allow_html=True)
         return bacteria_count, sort_by
     
 def write_bacteria_table(compound_selected, bacteria_count, sort_by):    
@@ -146,14 +148,16 @@ def get_bacteria_table(compound_selected, bacteria_count, sort_by):
     data_selected["ncbi_id"] = data["ncbi_id"]
     data_selected["name"] = data["name"]
     data_selected_df = pd.DataFrame(data_selected)
-    data_selected_df = data_selected_df[["ncbi_id", "name", "embedding", "p_value"]]
+    data_selected_df = data_selected_df[["ncbi_id", "name", "embedding", "shortest_path_length", "p_value"]]
     if sort_by == "embedding score":
         bacteria_df = data_selected_df.sort_values(by="embedding", ascending=False).head(bacteria_count)
-    else:
+    elif sort_by == "proximity pvalue":
         bacteria_df = data_selected_df.sort_values(by="p_value", ascending=True).head(bacteria_count)
+    else:
+        bacteria_df = data_selected_df.sort_values(by="shortest_path_length", ascending=True).head(bacteria_count)
         
     bacteria_df.ncbi_id = bacteria_df.ncbi_id.astype(str)    
-    bacteria_df.rename(columns={"ncbi_id": "NCBI ID", "embedding": "embedding score", "p_value": "proximity pvalue"}, inplace=True)                
+    bacteria_df.rename(columns={"ncbi_id": "NCBI ID", "embedding": "embedding score", "shortest_path_length": "proximity in graph space", "p_value": "proximity pvalue"}, inplace=True)                
     return bacteria_df.reset_index().drop("index", axis=1)
     
 
