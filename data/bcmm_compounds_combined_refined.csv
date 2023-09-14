@@ -1,0 +1,365 @@
+,compound_name,spoke_name,spoke_identifier,annotation
+0,melphalan,Melphalan,inchikey:SGDBTWWWUNNDEQ-LBPRGKRZSA-N,exact node name match
+1,tenofovir,Tenofovir,inchikey:SGOIRFVFHAKUTI-ZCFIWIBFSA-N,exact node name match
+2,tenatoprazole,Tenatoprazole,inchikey:ZBFDAUIVDSSISP-UHFFFAOYSA-N,exact node name match
+3,choline,Choline,inchikey:OEYIOHPDSNJKLS-UHFFFAOYSA-N,exact node name match
+4,bupropion,Bupropion,inchikey:SNPPWIUOZRMYNY-UHFFFAOYSA-N,exact node name match
+5,dopamine,Dopamine,inchikey:VYFYYTLLBUKUHU-UHFFFAOYSA-N,exact node name match
+6,alfuzosin,Alfuzosin,inchikey:WNMJYKCGWZFFKR-UHFFFAOYSA-N,exact node name match
+7,alprenolol,Alprenolol,inchikey:PAZJSJFMUHDSTF-UHFFFAOYSA-N,exact node name match
+8,altretamine,Altretamine,inchikey:UUVWYPNAQBNQJQ-UHFFFAOYSA-N,exact node name match
+9,amantadine,Amantadine,inchikey:DKNWSYNQZKUICI-UHFFFAOYSA-N,exact node name match
+10,anastrozole,Anastrozole,inchikey:YBBLVLTVTVSKRW-UHFFFAOYSA-N,exact node name match
+11,azathioprine,Azathioprine,inchikey:LMEKQMALGUDUQG-UHFFFAOYSA-N,exact node name match
+12,benzbromarone,Benzbromarone,inchikey:WHQCHUCQKNIQEC-UHFFFAOYSA-N,exact node name match
+13,benzthiazide,Benzthiazide,inchikey:NDTSRXAMMQDVSW-UHFFFAOYSA-N,exact node name match
+14,bicalutamide,Bicalutamide,inchikey:LKJPYSCBVHEWIU-UHFFFAOYSA-N,exact node name match
+15,biperiden,Biperiden,inchikey:YSXKPIUOCJLQIE-UHFFFAOYSA-N,exact node name match
+16,bisacodyl,Bisacodyl,inchikey:KHOITXIGCFIULA-UHFFFAOYSA-N,exact node name match
+17,bromazepam,Bromazepam,inchikey:VMIYHDSEFNYJSL-UHFFFAOYSA-N,exact node name match
+18,verapamil,Verapamil,inchikey:SGTNSNPWRIOYBX-UHFFFAOYSA-N,exact node name match
+19,carisoprodol,Carisoprodol,inchikey:OFZCIYFFPZCNJE-UHFFFAOYSA-N,exact node name match
+20,carvedilol,Carvedilol,inchikey:OGHNVEJMJSYVRP-UHFFFAOYSA-N,exact node name match
+21,celecoxib,Celecoxib,inchikey:RZEKVGVHFLEQIL-UHFFFAOYSA-N,exact node name match
+22,cetirizine,Cetirizine,inchikey:ZKLPARSLTMPFCP-UHFFFAOYSA-N,exact node name match
+23,chlormezanone,Chlormezanone,inchikey:WEQAYVWKMWHEJO-UHFFFAOYSA-N,exact node name match
+24,cimetidine,Cimetidine,inchikey:AQIXAKUUQRKLND-UHFFFAOYSA-N,exact node name match
+25,clemizole,Clemizole,inchikey:CJXAEXPPLWQRFR-UHFFFAOYSA-N,exact node name match
+26,clofazimine,Clofazimine,inchikey:WDQPAMHFFCXSNU-UHFFFAOYSA-N,exact node name match
+27,clonazepam,Clonazepam,inchikey:DGBIGWXXNGSACT-UHFFFAOYSA-N,exact node name match
+28,cyclobenzaprine,Cyclobenzaprine,inchikey:JURKNVYFZMSNLP-UHFFFAOYSA-N,exact node name match
+29,cyclophosphamide,Cyclophosphamide,inchikey:CMSMOCZEIVJLDB-UHFFFAOYSA-N,exact node name match
+30,dantrolene,Dantrolene,inchikey:OZOMQRBLCMDCEG-UHFFFAOYSA-N,exact node name match
+31,dicyclomine,Dicyclomine,inchikey:CURUTKGFNZGFSE-UHFFFAOYSA-N,exact node name match
+32,diphenylpyraline,Diphenylpyraline,inchikey:OWQUZNMMYNAXSL-UHFFFAOYSA-N,exact node name match
+33,dipyridamole,Dipyridamole,inchikey:IZEKFCXSFNUWAM-UHFFFAOYSA-N,exact node name match
+34,dolasetron,Dolasetron,inchikey:UKTAZPQNNNJVKR-UHFFFAOYSA-N,exact node name match
+35,ethacrynic acid,Ethacrynic acid,inchikey:AVOLMBLBETYQHX-UHFFFAOYSA-N,exact node name match
+36,ethoxzolamide,Ethoxzolamide,inchikey:OUZWUKMCLIBBOG-UHFFFAOYSA-N,exact node name match
+37,etodolac,Etodolac,inchikey:NNYBQONXHNTVIJ-UHFFFAOYSA-N,exact node name match
+38,famciclovir,Famciclovir,inchikey:GGXKWVWZWMLJEH-UHFFFAOYSA-N,exact node name match
+39,famprofazone,Famprofazone,inchikey:GNUXVOXXWGNPIV-UHFFFAOYSA-N,exact node name match
+40,fenofibrate,Fenofibrate,inchikey:YMTINGFKWWXKFG-UHFFFAOYSA-N,exact node name match
+41,fenspiride,Fenspiride,inchikey:FVNFBBAOMBJTST-UHFFFAOYSA-N,exact node name match
+42,fluconazole,Fluconazole,inchikey:RFHAOTPXVQNOHP-UHFFFAOYSA-N,exact node name match
+43,flucytosine,Flucytosine,inchikey:XRECTZIEBJDKEO-UHFFFAOYSA-N,exact node name match
+44,fluphenazine,Fluphenazine,inchikey:PLDUPXSUYLZYBN-UHFFFAOYSA-N,exact node name match
+45,fluoxetine,Fluoxetine,inchikey:RTHCYVBBDHJXIQ-UHFFFAOYSA-N,exact node name match
+46,flutamide,Flutamide,inchikey:MKXKFYHWDHIYRV-UHFFFAOYSA-N,exact node name match
+47,gliclazide,Gliclazide,inchikey:BOVGTQGAOIONJV-UHFFFAOYSA-N,exact node name match
+48,glipizide,Glipizide,inchikey:ZJJXGWJIGJFDTL-UHFFFAOYSA-N,exact node name match
+49,idebenone,Idebenone,inchikey:JGPMMRGNQUBGND-UHFFFAOYSA-N,exact node name match
+50,indomethacin,Indomethacin,inchikey:CGIGDMFJXJATDK-UHFFFAOYSA-N,exact node name match
+51,irbesartan,Irbesartan,inchikey:YOSHYTLCDANDAN-UHFFFAOYSA-N,exact node name match
+52,loperamide,Loperamide,inchikey:RDOIQAHITMMDAJ-UHFFFAOYSA-N,exact node name match
+53,lorazepam,Lorazepam,inchikey:DIWRORZWFLOCLC-UHFFFAOYSA-N,exact node name match
+54,losartan,Losartan,inchikey:PSIFNNKUMBGKDQ-UHFFFAOYSA-N,exact node name match
+55,mebendazole,Mebendazole,inchikey:OPXLLQIJSORQAM-UHFFFAOYSA-N,exact node name match
+56,mefloquine,Mefloquine,inchikey:XEEQGYMUWCZPDN-UHFFFAOYSA-N,exact node name match
+57,memantine,Memantine,inchikey:BUGYDGFZZOZRHP-UHFFFAOYSA-N,exact node name match
+58,methoxsalen,Methoxsalen,inchikey:QXKHYNVANLEOEG-UHFFFAOYSA-N,exact node name match
+59,methylphenidate,Methylphenidate,inchikey:DUGOZIWVEXMGBE-UHFFFAOYSA-N,exact node name match
+60,metronidazole,Metronidazole,inchikey:VAOCPAMSLUNLGC-UHFFFAOYSA-N,exact node name match
+61,acecainide,Acecainide,inchikey:KEECCEWTUVWFCV-UHFFFAOYSA-N,exact node name match
+62,nabumetone,Nabumetone,inchikey:BLXXJMDCKKHMKV-UHFFFAOYSA-N,exact node name match
+63,naftopidil,Naftopidil,inchikey:HRRBJVNMSRJFHQ-UHFFFAOYSA-N,exact node name match
+64,nevirapine,Nevirapine,inchikey:NQDJXKOVJZTUJA-UHFFFAOYSA-N,exact node name match
+65,nicardipine,Nicardipine,inchikey:ZBBHBTPTTSWHBA-UHFFFAOYSA-N,exact node name match
+66,nifedipine,Nifedipine,inchikey:HYIMSNHJOBLJNT-UHFFFAOYSA-N,exact node name match
+67,nilutamide,Nilutamide,inchikey:XWXYUMMDTVBTOU-UHFFFAOYSA-N,exact node name match
+68,nimodipine,Nimodipine,inchikey:UIAGMCDKSXEBJQ-UHFFFAOYSA-N,exact node name match
+69,nitrazepam,Nitrazepam,inchikey:KJONHKAYOJNZEC-UHFFFAOYSA-N,exact node name match
+70,nitrendipine,Nitrendipine,inchikey:PVHUJELLJLJGLN-UHFFFAOYSA-N,exact node name match
+71,omeprazole,Omeprazole,inchikey:SUBDBMMJDZJVOS-UHFFFAOYSA-N,exact node name match
+72,oxaprozin,Oxaprozin,inchikey:OFPXSFXSNFPTHF-UHFFFAOYSA-N,exact node name match
+73,oxazepam,Oxazepam,inchikey:ADIMAYPTOBDMTL-UHFFFAOYSA-N,exact node name match
+74,pantoprazole,Pantoprazole,inchikey:IQPSEEYGBUAQFF-UHFFFAOYSA-N,exact node name match
+75,papaverine,Papaverine,inchikey:XQYZDYMELSJDRZ-UHFFFAOYSA-N,exact node name match
+76,phenacetin,Phenacetin,inchikey:CPJSUEIXXCENMM-UHFFFAOYSA-N,exact node name match
+77,phenazopyridine,Phenazopyridine,inchikey:QPFYXYFORQJZEC-UHFFFAOYSA-N,exact node name match
+78,pranoprofen,Pranoprofen,inchikey:TVQZAMVBTVNYLA-UHFFFAOYSA-N,exact node name match
+79,probenecid,Probenecid,inchikey:DBABZHXKTCFAPX-UHFFFAOYSA-N,exact node name match
+80,procarbazine,Procarbazine,inchikey:CPTBDICYNRMXFX-UHFFFAOYSA-N,exact node name match
+81,ranitidine,Ranitidine,inchikey:VMXUWOKSQNHOCA-UHFFFAOYSA-N,exact node name match
+82,rebamipide,Rebamipide,inchikey:ALLWOAVDORUJLA-UHFFFAOYSA-N,exact node name match
+83,riluzole,Riluzole,inchikey:FTALBRSUTCGOEG-UHFFFAOYSA-N,exact node name match
+84,risperidone,Risperidone,inchikey:RAPZEAPATHNIPO-UHFFFAOYSA-N,exact node name match
+85,roxatidine acetate,Roxatidine acetate,inchikey:SMTZFNFIKUPEJC-UHFFFAOYSA-N,exact node name match
+86,sotalol,Sotalol,inchikey:ZBMZVLHSJCTVON-UHFFFAOYSA-N,exact node name match
+87,imatinib,Imatinib,inchikey:KTUFNOKKBVMGRW-UHFFFAOYSA-N,exact node name match
+88,vorinostat,Vorinostat,inchikey:WAEXFXRVDQXREF-UHFFFAOYSA-N,exact node name match
+89,succinylsulfathiazole,Succinylsulfathiazole,inchikey:SKVLYVHULOWXTD-UHFFFAOYSA-N,exact node name match
+90,sulfamethoxazole,Sulfamethoxazole,inchikey:JLKIGFTWXXRPMT-UHFFFAOYSA-N,exact node name match
+91,sulfapyridine,Sulfapyridine,inchikey:GECHUMIMRBOMGK-UHFFFAOYSA-N,exact node name match
+92,sulfasalazine,Sulfasalazine,inchikey:NCEXYHBECQHGNR-UHFFFAOYSA-N,exact node name match
+93,sulfinpyrazone,Sulfinpyrazone,inchikey:MBGGBVCUIVRRBF-UHFFFAOYSA-N,exact node name match
+94,sulpiride,Sulpiride,inchikey:BGRJTUBHPOOWDU-UHFFFAOYSA-N,exact node name match
+95,thiothixene,Thiothixene,inchikey:GFBKORZTTCHDGY-UHFFFAOYSA-N,exact node name match
+96,tinidazole,Tinidazole,inchikey:HJLSLZFTEKNLFI-UHFFFAOYSA-N,exact node name match
+97,tolazamide,Tolazamide,inchikey:OUDSBRTVNLOZBN-UHFFFAOYSA-N,exact node name match
+98,trihexyphenidyl,Trihexyphenidyl,inchikey:HWHLPVGTWGOCJO-UHFFFAOYSA-N,exact node name match
+99,zaleplon,Zaleplon,inchikey:HUNXMJYCHXQEGX-UHFFFAOYSA-N,exact node name match
+100,dexamethasone,Dexamethasone,inchikey:UREBDLICKHMUKA-CXSFZGCWSA-N,exact node name match
+101,hydrocortisone acetate,Hydrocortisone acetate,inchikey:ALEXXDVDDISNDU-JZYPGELDSA-N,exact node name match
+102,prednisolone,Prednisolone,inchikey:OIGNJSKKLXVSLS-VWUMJDOOSA-N,exact node name match
+103,estradiol,Estradiol,inchikey:VOXZDWNPVJITMN-ZBRFXRBCSA-N,exact node name match
+104,norethindrone acetate,Norethindrone acetate,inchikey:IMONTRJLAWHYGT-ZCPXKWAGSA-N,exact node name match
+105,spironolactone,Spironolactone,inchikey:LXMSZDCAJNLERA-ZHYRCANASA-N,exact node name match
+106,prednisone,Prednisone,inchikey:XOFYZVNMUHMLCC-ZPOLXVRWSA-N,exact node name match
+107,chloramphenicol,Chloramphenicol,inchikey:WIIZWVCIJKGZOK-RKDXNWHRSA-N,exact node name match
+108,progesterone,Progesterone,inchikey:RJKFOVLPORLFTN-LEKSSAKUSA-N,exact node name match
+109,levodopa,Levodopa,inchikey:WTDRDQBEARUVNC-LURJTMIESA-N,exact node name match
+110,colchicine,Colchicine,inchikey:IAKHMKGGTNLKSZ-INIZCTEOSA-N,exact node name match
+111,trifluridine,Trifluridine,inchikey:VSQQQLOSPVPRAZ-RRKCRQDMSA-N,exact node name match
+112,methsuximide,Methsuximide,inchikey:AJXPJJZHWIXJCJ-UHFFFAOYSA-N,exact node name match
+113,methylprednisolone,Methylprednisolone,inchikey:VHRSUDSXCMQTMA-PJHHCJLFSA-N,exact node name match
+114,isosorbide dinitrate,Isosorbide dinitrate,inchikey:MOYKHGMNXAOIAT-JGWLITMVSA-N,exact node name match
+115,neoprontosil,Neoprontosil,inchikey:RALNLQYPLYWQRT-UHFFFAOYSA-N,exact node name match
+116,galantamine,Galantamine,inchikey:ASUTZQLVASHGKV-JDFRZJQESA-N,exact node name match
+117,betamethasone,Betamethasone,inchikey:UREBDLICKHMUKA-DVTGEIKXSA-N,exact node name match
+118,cyproterone acetate,Cyproterone acetate,inchikey:UWFYSQMTEOIJJG-FDTZYFLXSA-N,exact node name match
+119,chenodeoxycholic acid,Chenodeoxycholic acid,inchikey:RUDATBOHQWOJDD-BSWAIDMHSA-N,exact node name match
+120,hesperidin,Hesperidin,inchikey:QUQPHWDTPGMPEX-QJBIFVCTSA-N,exact node name match
+121,methamphetamine,Methamphetamine,inchikey:MYWUZJCMWCOHBA-VIFPVBQESA-N,exact node name match
+122,megestrol acetate,Megestrol acetate,inchikey:RQZAXGRLVPAYTJ-GQFGMJRRSA-N,exact node name match
+123,diphenyl sulfoxide,Diphenyl sulfoxide,inchikey:JJHHIJFTHRNPIK-UHFFFAOYSA-N,exact node name match
+124,bucetin,Bucetin,inchikey:LIAWQASKBFCRNR-UHFFFAOYSA-N,exact node name match
+125,metaxalone,Metaxalone,inchikey:IMWZZHHPURKASS-UHFFFAOYSA-N,exact node name match
+126,digoxigenin,Digoxigenin,inchikey:SHIBSTMRCDJXLN-KCZCNTNESA-N,exact node name match
+127,pimozide,Pimozide,inchikey:YVUQSNJEYSNKRX-UHFFFAOYSA-N,exact node name match
+128,betamethasone valerate,Betamethasone valerate,inchikey:SNHRLVCMMWUAJD-SUYDQAKGSA-N,exact node name match
+129,diacetamate,Diacetamate,inchikey:UJAOSPFULOFZRR-UHFFFAOYSA-N,exact node name match
+130,doxifluridine,Doxifluridine,inchikey:ZWAOHEXOSAUJHY-ZIYNGMLESA-N,exact node name match
+131,olsalazine,Olsalazine,inchikey:QQBDLJCYGRGAKP-UHFFFAOYSA-N,exact node name match
+132,misonidazole,Misonidazole,inchikey:OBBCSXFCDPPXOL-UHFFFAOYSA-N,exact node name match
+133,levamisole,Levamisole,inchikey:HLFSDGLLUJUHTE-SNVBAGLBSA-N,exact node name match
+134,danazol,Danazol,inchikey:POZRVZJJTULAOH-LHZXLZLDSA-N,exact node name match
+135,lofexidine,Lofexidine,inchikey:KSMAGQUYOIHWFS-UHFFFAOYSA-N,exact node name match
+136,doxorubicin,Doxorubicin,inchikey:AOJJSUZBOXZQNB-TZSSRYMLSA-N,exact node name match
+137,nicergoline,Nicergoline,inchikey:YSEXMKHXIOCEJA-FVFQAYNVSA-N,exact node name match
+138,oxcarbazepine,Oxcarbazepine,inchikey:CTRLABGOLIVAIY-UHFFFAOYSA-N,exact node name match
+139,zidovudine,Zidovudine,inchikey:HBOMLICNUCNMMY-XLPZGREQSA-N,exact node name match
+140,paclitaxel,Paclitaxel,inchikey:RCINICONZNJXQF-MZXODVADSA-N,exact node name match
+141,norgestimate,Norgestimate,inchikey:KIQQMECNKUGGKA-GOMYTPFNSA-N,exact node name match
+142,bezafibrate,Bezafibrate,inchikey:IIBYAHWJQTYFKB-UHFFFAOYSA-N,exact node name match
+143,diltiazem,Diltiazem,inchikey:HSUGRBWQSSZJOP-RTWAWAEBSA-N,exact node name match
+144,paroxetine,Paroxetine,inchikey:AHOUBRCZNHFOSL-YOEHRIQHSA-N,exact node name match
+145,lovastatin,Lovastatin,inchikey:PCZOHLXUXFIOCF-BXMDZJJMSA-N,exact node name match
+146,balsalazide,Balsalazide,inchikey:IPOKCKJONYRRHP-UHFFFAOYSA-N,exact node name match
+147,quinapril,Quinapril,inchikey:JSDRRTOADPPCHY-HSQYWUDLSA-N,exact node name match
+148,mifepristone,Mifepristone,inchikey:VKHAHZOOUSRJNA-GCNJZUOMSA-N,exact node name match
+149,itraconazole,Itraconazole,inchikey:VHVPQPYKVGDNFY-ZPGVKDDISA-N,exact node name match
+150,finasteride,Finasteride,inchikey:DBEPLOCGEIEOCV-WSBQPABSSA-N,exact node name match
+151,exemestane,Exemestane,inchikey:BFYIZQONLCFLEV-DAELLWKTSA-N,exact node name match
+152,gemcitabine,Gemcitabine,inchikey:SDUQYLNIPVEERB-QPPQHZFASA-N,exact node name match
+153,duloxetine,Duloxetine,inchikey:ZEUITGRIYCTCEM-KRWDZBQOSA-N,exact node name match
+154,valsartan,Valsartan,inchikey:ACWBQPMHZXGDFX-QFIPXVFZSA-N,exact node name match
+155,capecitabine,Capecitabine,inchikey:GAGWJHPBXLXJQN-UORFTKCHSA-N,exact node name match
+156,mevastatin,Mevastatin,inchikey:AJLFOPYRIVGYMJ-INTXDZFKSA-N,exact node name match
+157,secoisolariciresinol,Secoisolariciresinol,inchikey:PUETUDUXMCLALY-HOTGVXAUSA-N,exact node name match
+158,azetirelin,Azetirelin,inchikey:WBGUMUGCONUXFK-DCAQKATOSA-N,exact node name match
+159,pidotimod,Pidotimod,inchikey:UUTKICFRNVKFRG-WDSKDSINSA-N,exact node name match
+160,repaglinide,Repaglinide,inchikey:FAEKWTJYAYMJKF-QHCPKHFHSA-N,exact node name match
+161,telmisartan,Telmisartan,inchikey:RMMXLENWKUUMAY-UHFFFAOYSA-N,exact node name match
+162,prontosil,Prontosil,inchikey:ABBQGOCHXSPKHJ-UHFFFAOYSA-N,exact node name match
+163,artemisinin,Artemisinin,inchikey:BLUAFEHZUWYNDE-NNWCWBAJSA-N,exact node name match
+164,drospirenone,Drospirenone,inchikey:METQSPRSQINEEU-HXCATZOESA-N,exact node name match
+165,iloperidone,Iloperidone,inchikey:XMXHEBAFVSFQEX-UHFFFAOYSA-N,exact node name match
+166,diflorasone diacetate,Diflorasone diacetate,inchikey:BOBLHFUVNSFZPJ-JOYXJVLSSA-N,exact node name match
+167,loperamide oxide,Loperamide oxide,inchikey:KXVSBTJVTUVNPM-UHFFFAOYSA-N,exact node name match
+168,voriconazole,Voriconazole,inchikey:BCEHBSKCWLPMDN-MGPLVRAMSA-N,exact node name match
+169,ipsalazide,Ipsalazide,inchikey:CQSRTOJJBONKMC-UHFFFAOYSA-N,exact node name match
+170,sesamin,Sesamin,inchikey:PEYUIKBAABKQKQ-AFHBHXEDSA-N,exact node name match
+171,pinoresinol,Pinoresinol,inchikey:HGXBRUKMWQGOIE-AFHBHXEDSA-N,exact node name match
+172,rizatriptan benzoate,Rizatriptan benzoate,inchikey:JPRXYLQNJJVCMZ-UHFFFAOYSA-N,exact node name match
+173,orphenadrine citrate,Orphenadrine citrate,inchikey:MMMNTDFSPSQXJP-UHFFFAOYSA-N,exact node name match
+174,carbetapentane citrate,Carbetapentane citrate,inchikey:AKJDEXBCRLOVTH-UHFFFAOYSA-N,exact node name match
+175,racecadotril,Racecadotril,inchikey:ODUOJXZPIYUATO-UHFFFAOYSA-N,exact node name match
+176,tadalafil,Tadalafil,inchikey:WOXKDUGGOYFFRN-IIBYNOLFSA-N,exact node name match
+177,enterodiol,Enterodiol,inchikey:DWONJCNDULPHLV-HOTGVXAUSA-N,exact node name match
+178,paliperidone,Paliperidone,inchikey:PMXMIIMHBWHSKN-UHFFFAOYSA-N,exact node name match
+179,nitisinone,Nitisinone,inchikey:OUBCNLGXQFSTLU-UHFFFAOYSA-N,exact node name match
+180,methotrexate,Methotrexate,inchikey:FBOZXECLQNJBKD-ZDUSSCGKSA-N,exact node name match
+181,glycyrrhizin,Glycyrrhizin,inchikey:LPLVUJXQOOQHMX-MOGLOQIBSA-N,exact node name match
+182,olmesartan medoxomil,Olmesartan medoxomil,inchikey:UQGKUQLKSCSZGY-UHFFFAOYSA-N,exact node name match
+183,ketoprofen glucuronide,Ketoprofen glucuronide,inchikey:PBTXSZZKPHBHMA-LYFYOZKASA-N,exact node name match
+184,febuxostat,Febuxostat,inchikey:BQSJTQLCZDPROO-UHFFFAOYSA-N,exact node name match
+185,naproxen,Naproxen,inchikey:CMWTZPSULFXXJA-VIFPVBQESA-N,exact node name match
+186,deflazacort,Deflazacort,inchikey:FBHSPRKOSMHSIF-GRMWVWQJSA-N,exact node name match
+187,ramelteon,Ramelteon,inchikey:YLXDSYKOBKBWJQ-LBPRGKRZSA-N,exact node name match
+188,cortisone,Cortisone,inchikey:MFYSYFVPBJMHGN-ZPOLXVRWSA-N,exact node name match
+189,fludrocortisone acetate,Fludrocortisone acetate,inchikey:SYWHXTATXSMDSB-GSLJADNHSA-N,exact node name match
+190,noscapine,Noscapine,inchikey:AKNNEGZIBPJZJG-MSOLQXFVSA-N,exact node name match
+191,indicine n-oxide,Indicine N-oxide,inchikey:DNAWGBOKUFFVMB-PZIGJSDBSA-N,exact node name match
+192,lariciresinol,Lariciresinol,inchikey:MHXCIKYXNYCMHY-AUSJPIAWSA-N,exact node name match
+193,fostamatinib,Fostamatinib,inchikey:GKDRMWXFWHEQQT-UHFFFAOYSA-N,exact node name match
+194,ouabagenin,Ouabagenin,inchikey:BXSABLKMKAINIU-QOHCMMFCSA-N,exact node name match
+195,rifampicin,Rifampicin,inchikey:JQXXHWHPUNPDRT-WLSIYKJHSA-N,exact node name match
+196,olanzapine,Olanzapine,inchikey:KVWDHTXUZHCGIO-UHFFFAOYSA-N,exact node name match
+197,allopurinol,Allopurinol,inchikey:OFCNXPDARWKPPY-UHFFFAOYSA-N,exact node name match
+198,anagrelide,Anagrelide,inchikey:OTBXOEAOVRKTNQ-UHFFFAOYSA-N,exact node name match
+199,rifabutin,Rifabutin,inchikey:AZFBLLCNOQPJGJ-VXTBVIBXSA-N,exact node name match
+200,eltrombopag,Eltrombopag,inchikey:SVOQIEJWJCQGDQ-UHFFFAOYSA-N,exact node name match
+201,epacadostat,Epacadostat,inchikey:FBKMWOJEPMPVTQ-UHFFFAOYSA-N,exact node name match
+202,deleobuvir,Deleobuvir,inchikey:BMAIGAHXAJEULY-UKTHLTGXSA-N,exact node name match
+203,ingenol disoxate,Ingenol disoxate,inchikey:GLIUZQUNUNICGS-XUBYYPQFSA-N,exact node name match
+204,benazepril,Benazepril,inchikey:XPCFTKFZXHTYIP-PMACEKPBSA-N,exact node name match
+205,ramipril,Ramipril,inchikey:HDACQVRGBOVJII-JBDAPHQKSA-N,exact node name match
+206,trandolapril,Trandolapril,inchikey:VXFJYXUZANRPDJ-WTNASJBWSA-N,exact node name match
+207,nitrofurantoin,Nitrofurantoin,inchikey:NXFQHRVNIOXGAQ-YCRREMRBSA-N,exact node name match
+208,vilazodone,Vilazodone,inchikey:SGEGOXDYSFKCPT-UHFFFAOYSA-N,exact node name match
+209,prasugrel,Prasugrel,inchikey:DTGLZDAWLRGWQN-UHFFFAOYSA-N,exact node name match
+210,rebaudioside A,Rebaudioside A,inchikey:HELXLJCILKEWJH-NCGAPWICSA-N,exact node name match
+211,digoxin,Digoxin,inchikey:LTMHDMANZUZIPE-PUGKRICDSA-N,exact node name match
+212,flosequinan,Flosequinan,inchikey:UYGONJYYUKVHDD-UHFFFAOYSA-N,exact node name match
+213,tolcapone,Tolcapone,inchikey:MIQPIUSUKVNLNT-UHFFFAOYSA-N,exact node name match
+214,budesonide,Budesonide,inchikey:VOVIALXJUBGFJZ-KWVAZRHASA-N,exact node name match
+215,mycophenolate mofetil,Mycophenolate mofetil,inchikey:RTGDFNSFWBGLEC-SYZQJQIISA-N,exact node name match
+216,entacapone,Entacapone,inchikey:JRURYQJSLYLRLN-BJMVGYQFSA-N,exact node name match
+217,zearalenone,Zearalenone,inchikey:MBMQEIFVQACCCH-QBODLPLBSA-N,exact node name match
+218,daidzein,Daidzein,inchikey:ZQSIJRDFPHDXIC-UHFFFAOYSA-N,exact node name match
+219,sorivudine,Sorivudine,inchikey:GCQYYIHYQMVWLT-HQNLTJAPSA-N,exact node name match
+220,tranilast,Tranilast,inchikey:NZHGWWWHIYHZNX-CSKARUKUSA-N,exact node name match
+221,misoprostol,Misoprostol,inchikey:OJLOPKGSLYJEMD-URPKTTJQSA-N,exact node name match
+222,irsogladine maleate,Irsogladine maleate,inchikey:PJLVTVAIERNDEQ-BTJKTKAUSA-N,exact node name match
+223,naloxone,Naloxone,inchikey:UZHSEJADLWPNLE-GRGSLBFTSA-N,exact node name match
+224,nateglinide,Nateglinide,inchikey:OELFLUMRDSZNSF-OFLPRAFFSA-N,exact node name match
+225,warfarin,Warfarin,inchikey:PJVWKTKQMONHTI-UHFFFAOYSA-N,exact node name match
+226,linagliptin,Linagliptin,inchikey:LTXREWYXXSTFRX-QGZVFWFLSA-N,exact node name match
+227,sulindac,Sulindac,inchikey:MLKXDPUZXIRXEP-MFOYZWKCSA-N,exact node name match
+228,capsaicin,Capsaicin,inchikey:YKPUWZUDDOIDPM-SOFGYWHQSA-N,exact node name match
+229,nizatidine,Nizatidine,inchikey:SGXXNSQHWDMGGP-IZZDOVSWSA-N,exact node name match
+230,dasatinib,Dasatinib,inchikey:ZBNZXTGUTAYRHI-UHFFFAOYSA-N,exact node name match
+231,cyclohexylsulfamate,Cyclohexylsulfamate,inchikey:HCAJEUSONLESMK-UHFFFAOYSA-M,exact node name match
+232,warfarin,warfarin,CHEBI:10033,exact node name match
+233,omeprazole,omeprazole,CHEBI:7772,exact node name match
+234,misoprostol,misoprostol,CHEBI:63610,exact node name match
+235,mefloquine,mefloquine,CHEBI:63609,exact node name match
+236,fluoxetine,fluoxetine,CHEBI:5118,exact node name match
+237,rebamipide,Rebamipide,CHEBI:32090,exact node name match
+238,tenatoprazole,Tenatoprazole,CHEBI:32191,exact node name match
+239,paliperidone,paliperidone,CHEBI:82978,exact node name match
+240,secoisolariciresinol,secoisolariciresinol,CHEBI:67250,exact node name match
+241,methylphenidate,methylphenidate,CHEBI:6887,exact node name match
+242,verapamil,verapamil,CHEBI:9948,exact node name match
+243,pinoresinol,pinoresinol,CHEBI:8225,exact node name match
+244,ergotamine tartrate,Ergotamine tartrate,CHEBI:4827,exact node name match
+245,bicalutamide,bicalutamide,CHEBI:3090,exact node name match
+246,prasugrel,prasugrel,CHEBI:87715,exact node name match
+247,nicardipine,nicardipine,CHEBI:7550,exact node name match
+248,ruxolitinib,Ruxolitinib,inchikey:HFNKQEVNSGCOJV-OAHLLOKOSA-N,exact node name match
+249,caffeic acid,Caffeic Acid,inchikey:QAIPRVGONGVQAS-DUXPYHPUSA-N,exact node name match
+250,eszopiclone,Eszopiclone,inchikey:GBBSUAFBMRNDJC-INIZCTEOSA-N,exact node name match
+251,ritonavir,Ritonavir,inchikey:NCDNCNXCDXHOMX-XGKFQTDJSA-N,exact node name match
+252,ouabain,Ouabain,inchikey:LPMXVESGRSUGHW-HBYQJFLCSA-N,exact node name match
+253,griseofulvin,Griseofulvin,inchikey:DDUHZTYCFQRHIY-RBHXEPJQSA-N,exact node name match
+254,digitoxin,Digitoxin,inchikey:WDJUZGPOPHTGOT-XUDUSOBPSA-N,exact node name match
+255,metoprolol tartrate,Metoprolol tartrate,inchikey:YGULWPYYGQCFMP-CEAXSRTFSA-N,exact node name match
+256,stevioside,Stevioside,inchikey:UEDUENGHJMELGK-HYDKPPNVSA-N,exact node name match
+257,vinpocetine,Vinpocetine,inchikey:DDNCQMVWWZOMLN-IRLDBZIGSA-N,exact node name match
+258,betamethasone acetate,Betamethasone acetate,inchikey:AKUJBENLRBOFTD-QZIXMDIESA-N,exact node name match
+259,tacrolimus,Tacrolimus,inchikey:QJJXYPPXXYFBGM-LFZNUXCKSA-N,exact node name match
+260,brivudine,Brivudine,inchikey:ODZBBRURCPAEIQ-PIXDULNESA-N,exact node name match
+261,Corticosterone,Corticosterone,inchikey:OMFXVFTZEKFJBZ-HJTSIMOOSA-N,exact node name match
+262,Estrone,Estrone,inchikey:DNXHEGUUPJUMQT-CBZIJGRNSA-N,exact node name match
+263,Progesterone,Progesterone,inchikey:RJKFOVLPORLFTN-LEKSSAKUSA-N,exact node name match
+264,Testosterone,Testosterone,inchikey:MUMGGOZAMZWBJJ-DYKIIFRCSA-N,exact node name match
+265,Pregnenolone,Pregnenolone,inchikey:ORNBQBCIOKFOEO-QGVNFLHTSA-N,exact node name match
+266,Lithocholic acid,Lithocholic acid,inchikey:SMEROWZSTRWXGI-HVATVPOCSA-N,exact node name match
+267,Dehydroepiandrosterone sulfate,Dehydroepiandrosterone sulfate,inchikey:CZWCKYRVOZZJNM-USOAJAOKSA-N,exact node name match
+268,Isoallolithocholic acid,Isoallolithocholic acid,inchikey:SMEROWZSTRWXGI-XBESLWPFSA-N,exact node name match
+269,Enterolactone,Enterolactone,inchikey:HVDGDHBAMCBBLR-PBHICJAKSA-N,exact node name match
+270,Isolithocholic acid,Isolithocholic acid,inchikey:SMEROWZSTRWXGI-WFVDQZAMSA-N,exact node name match
+271,Cholic acid,Cholic acid,inchikey:BHQCQFFYRZLCQQ-OELDTZBJSA-N,exact node name match
+272,Deoxycholic acid,Deoxycholic Acid,inchikey:KXGVEGMKQFWNSR-LLQZFEROSA-N,exact node name match
+273,3-hydroxyanthranilic acid,3-Hydroxyanthranilic acid,inchikey:WJXSWCUQABXPFS-UHFFFAOYSA-N,exact node name match
+274,3-hydroxykynurenine,3-Hydroxykynurenine,inchikey:VCKPUUFAIGNJHC-UHFFFAOYSA-N,exact node name match
+275,anthranilic acid,Anthranilic acid,inchikey:RWZYAGGXGHYGMB-UHFFFAOYSA-N,exact node name match
+276,indole-3-acetamide,Indole-3-acetamide,inchikey:ZOAMBXDOGPRZLP-UHFFFAOYSA-N,exact node name match
+277,indole-3-acetic acid,Indole-3-acetic acid,inchikey:SEOVTRFCIGRIMH-UHFFFAOYSA-N,exact node name match
+278,kynurenine,Kynurenine,inchikey:YGPSJZOEDVAXAB-UHFFFAOYSA-N,exact node name match
+279,melatonin,Melatonin,inchikey:DRLFMBDRBRZALE-UHFFFAOYSA-N,exact node name match
+280,N-acetyl-5-hydroxytryptamine,N-Acetyl-5-hydroxytryptamine,inchikey:MVAWJSIDNICKHF-UHFFFAOYSA-N,exact node name match
+281,DL-phenylalanine,DL-Phenylalanine,inchikey:COLNVLDHVKWLRT-UHFFFAOYSA-N,exact node name match
+282,picolinic acid,Picolinic acid,inchikey:SIOXPEMLGUPBBT-UHFFFAOYSA-N,exact node name match
+283,quinolinic acid,Quinolinic acid,inchikey:GJAWHXHKYYXBSV-UHFFFAOYSA-N,exact node name match
+284,tryptamine,Tryptamine,inchikey:APJYDQYYACXCRM-UHFFFAOYSA-N,exact node name match
+285,homovanillic acid,Homovanillic acid,inchikey:QRMZSPFSDQBLIX-UHFFFAOYSA-N,exact node name match
+286,5-methoxytryptamine,5-Methoxytryptamine,inchikey:JTEJPPKMYBDEMY-UHFFFAOYSA-N,exact node name match
+287,kynurenic acid,Kynurenic acid,inchikey:HCZHHEIFKROPDY-UHFFFAOYSA-N,exact node name match
+288,serotonin,Serotonin,inchikey:QZAYGJVTTNCVMB-UHFFFAOYSA-N,exact node name match
+289,tyramine,Tyramine,inchikey:DZGWFCGJZKJUFP-UHFFFAOYSA-N,exact node name match
+290,xanthurenic acid,Xanthurenic acid,inchikey:FBZONXHGGPHHIY-UHFFFAOYSA-N,exact node name match
+291,2-aminophenol,2-Aminophenol,inchikey:CDAWCLOXVUBKRW-UHFFFAOYSA-N,exact node name match
+292,tyrosine,Tyrosine,inchikey:OUYCCCASQSFEME-QMMMGPOBSA-N,exact node name match
+293,methionine,Methionine,inchikey:FFEARJCKVFRZRR-BYPYZUCNSA-N,exact node name match
+294,tryptophan,Tryptophan,inchikey:QIVBCDIJIAJPQS-VIFPVBQESA-N,exact node name match
+295,L-isoleucine,l-Isoleucine,inchikey:AGPKZVBTJJNPAG-WHFBIAKZSA-N,exact node name match
+296,indole-3-carboxaldehyde,Indole-3-carboxaldehyde,inchikey:OLNJUISKUQQNIM-UHFFFAOYSA-N,exact node name match
+297,indoxyl sulfate,Indoxyl sulfate,inchikey:BXFFHSIDQOFMLE-UHFFFAOYSA-N,exact node name match
+298,1-acetylisatin,1-Acetylisatin,inchikey:LPGDEHBASRKTDG-UHFFFAOYSA-N,exact node name match
+299,indole-3-carboxylic acid,Indole-3-carboxylic acid,inchikey:KMAKOBLIOCQGJP-UHFFFAOYSA-N,exact node name match
+300,indole-3-lactic acid,Indole-3-lactic acid,inchikey:XGILAAMKEQUXLS-UHFFFAOYSA-N,exact node name match
+301,ag,ag,inchikey:FOIXSVOLVBLSDH-UHFFFAOYSA-N,exact synonym match
+302,ag,ag,inchikey:CXISPYVYMQWFLE-GSVOUGTGSA-N,exact synonym match
+303,ag,ag,inchikey:CXISPYVYMQWFLE-VKHMYHEASA-N,exact synonym match
+304,ag,ag,CHEBI:27569,exact synonym match
+305,cholic acid,cholic acid (usan),inchikey:BHQCQFFYRZLCQQ-OELDTZBJSA-N,best synonym match after string processing
+306,corticosterone,corticosterone,inchikey:OMFXVFTZEKFJBZ-HJTSIMOOSA-N,exact synonym match
+307,dehydroepiandrosterone sulfate,dehydroepiandrosterone sulfate,inchikey:CZWCKYRVOZZJNM-USOAJAOKSA-N,exact synonym match
+308,deoxycholic acid,avideoxycholic acid,inchikey:CQAGQSQFSWKGEB-GFBORMLMSA-N,best synonym match after string processing
+309,deoxycholic acid,isodeoxycholic acid,inchikey:ZHCAAZIHTDCFJX-QLEQUTGBSA-N,best synonym match after string processing
+310,deoxycholic acid,deoxycholic acid-d4,inchikey:KXGVEGMKQFWNSR-KFFZQJOESA-N,best synonym match after string processing
+311,dihydrotestosterone sulfate,5alpha-dihydrotestosterone sulfate,inchikey:KYVPWJSGFKNNLD-ABEVXSGRSA-N,best synonym match after string processing
+312,enterolactone,enterolactone,inchikey:HVDGDHBAMCBBLR-WMLDXEAASA-N,exact synonym match
+313,estrone,estrone,inchikey:DNXHEGUUPJUMQT-CBZIJGRNSA-N,exact synonym match
+314,estrone 3-sulfate,estrone 3-sulfate,inchikey:JKKFKPJIXZFSSB-OVWQWFNUSA-N,exact synonym match
+315,estrone 3-sulfate,estrone 3-sulfate,inchikey:JKKFKPJIXZFSSB-CBZIJGRNSA-N,exact synonym match
+316,isoallolithocholic acid,isoallolithocholic acid,inchikey:SMEROWZSTRWXGI-XBESLWPFSA-N,exact synonym match
+317,isolithocholic acid,isolithocholic acid,inchikey:SMEROWZSTRWXGI-WFVDQZAMSA-N,exact synonym match
+318,lithocholic acid,lithocholic acid,inchikey:SMEROWZSTRWXGI-HVATVPOCSA-N,exact synonym match
+319,pregnanediol ,pregnanediol (jan),inchikey:YWYQTGBBEZQBGO-BERLURQNSA-N,best synonym match after string processing
+320,pregnenolone,pregnenolone,inchikey:ORNBQBCIOKFOEO-QGVNFLHTSA-N,exact synonym match
+321,taurolithocholic acid ,taurolithocholic acid 3-sulfate,inchikey:HSNPMXROZIQAQD-GBURMNQMSA-N,best synonym match after string processing
+322,testosterone,testosterone,inchikey:MUMGGOZAMZWBJJ-DYKIIFRCSA-N,exact synonym match
+323,tg,tg,inchikey:IXFPJGBNCFXKPI-FSIHEZPISA-N,exact synonym match
+324,tg,tg,inchikey:BIYXEUAFGLTAEM-WUJLRWPWSA-N,exact synonym match
+325,thdoc,5-alpha-thdoc,inchikey:CYKYBWRSLLXBOW-GDYGHMJCSA-N,best synonym match after string processing
+326,thp,thp,inchikey:DHXVGJBLRPWPCS-UHFFFAOYSA-N,exact synonym match
+327,thp,thp,inchikey:CSNCBOPUCJOHLS-XLPZGREQSA-N,exact synonym match
+328,5-hydroxy-tryptophan,5-hydroxy-tryptophan,inchikey:LDCYZAJDBXYCGN-VIFPVBQESA-N,exact synonym match
+329,dl-phenylalanine,dl-phenylalanine,inchikey:COLNVLDHVKWLRT-UHFFFAOYSA-N,exact synonym match
+330,indole-3-acetonitrile,indole-3-acetonitrile,inchikey:DMCPFOBLJMLSNX-UHFFFAOYSA-N,exact synonym match
+331,indole-3-propionic acid,1h-indole-3-propionic acid,inchikey:GOLXRNDWAUTYKT-UHFFFAOYSA-N,best synonym match after string processing
+332,l-isoleucine,l-isoleucine,CHEBI:30009,exact synonym match
+333,l-leucine,l-leucine,CHEBI:30006,exact synonym match
+334,l-valine,l-valine,CHEBI:30015,exact synonym match
+335,n-acetyl-5-hydroxytryptamine,n-acetyl-5-hydroxytryptamine,inchikey:MVAWJSIDNICKHF-UHFFFAOYSA-N,exact synonym match
+336,tryptophan methyl ester,l-tryptophan methyl ester,inchikey:KCUNTYMNJVXYKZ-JTQLQIEISA-N,best synonym match after string processing
+337,5-fu,5-fu,inchikey:GHASVSINZRGABV-UHFFFAOYSA-N,exact synonym match
+338,benzylpenicillin,benzylpenicillin,inchikey:JGSARLDLIJGVTE-MBNYWOFBSA-N,exact synonym match
+339,berberin,berberine,inchikey:YAGGXYGFEKMOOG-UHFFFAOYSA-N,best synonym match after string processing
+340,berberin,berberine,inchikey:QVKHJFYKHMGTFF-UHFFFAOYSA-N,best synonym match after string processing
+341,berberin,berberine,inchikey:YBHILYKTIRIUTE-UHFFFAOYSA-N,best synonym match after string processing
+342,bilr 355,bilr 355,inchikey:BEMBRAMZGVDPMH-UHFFFAOYSA-N,exact synonym match
+343,chenodiol ,chenodiol (usan),inchikey:RUDATBOHQWOJDD-BSWAIDMHSA-N,best synonym match after string processing
+344,cortisol,urocortisol,inchikey:AODPIQQILQLWGS-UHFFFAOYSA-N,best synonym match after string processing
+345,diclofenac glucuronide,diclofenac glucuronide,inchikey:JXIKYYSIYCILNG-HBWRTXEVSA-N,exact synonym match
+346,ethopropazine,ethopropazine,inchikey:CDOZDBSBBXSXLB-UHFFFAOYSA-N,exact synonym match
+347,ezetimib,ezetimibe,inchikey:OLNTVTPDXPETLC-XPWALMASSA-N,best synonym match after string processing
+348,glyceryl trinitrate,glyceryl trinitrate,inchikey:SNIOPGDIGTZGOP-UHFFFAOYSA-N,exact synonym match
+349,hydrocortisone ,hydrocortisone (jp17/usp/inn),inchikey:JYGXADMDTFJGBT-VWUMJDOOSA-N,best synonym match after string processing
+350,indomethacin glucuronide,indomethacin glucuronide,inchikey:QCBWEVBGELGABM-CZLVRFMKSA-N,exact synonym match
+351,levonorgestrel,levonorgestrel,inchikey:WWYNJERNGUHSAO-XUDSTZEESA-N,exact synonym match
+352,mesalazine,mesalazine,inchikey:KBOPZPXVLCULAV-UHFFFAOYSA-N,exact synonym match
+353,morphine 6-glucuronide,morphine 6-glucuronide(minor),inchikey:GNJCUHZOSOYIEC-GAROZEBRSA-N,best synonym match after string processing
+354,paracetamol,paracetamol,inchikey:RZVAJINKPMORJF-UHFFFAOYSA-N,exact synonym match
+355,pericyazine,pericyazine,inchikey:LUALIOATIOESLM-UHFFFAOYSA-N,exact synonym match
+356,rebaudioside a,rebaudioside a,inchikey:HELXLJCILKEWJH-NCGAPWICSA-N,exact synonym match
+357,rebaudioside a,rebaudioside a,inchikey:GIPHUOWOTCAJSR-NCGAPWICSA-N,exact synonym match
+358,rifampin ,rifampin s,inchikey:IHHAOHNZEKYBLG-WLSIYKJHSA-N,best synonym match after string processing
+359,sn-38g,sn-38g,inchikey:SSJQVDUAKDRWTA-CAYKMONMSA-N,exact synonym match
+360,thiosine,thiosine,inchikey:GHSJKUNUIHUPDF-BYPYZUCNSA-N,exact synonym match
+361,trimebutine maleate,trimebutine maleate,inchikey:LORDFXWUHHSAQU-UHFFFAOYSA-N,exact synonym match
+362,ursodiol,ursodiol (usp),inchikey:RUDATBOHQWOJDD-UZVSRGJWSA-N,best synonym match after string processing
+363,zonisamide,n-acetyl zonisamide,inchikey:HXFUTAFSEXINIW-UHFFFAOYSA-N,best synonym match after string processing
