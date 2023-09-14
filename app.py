@@ -1,4 +1,4 @@
-from netvis import *
+import streamlit as st
 import pandas as pd
 import pickle
 import plotly.express as px
@@ -29,8 +29,6 @@ compound_names = list(set(compound_names) - set(compounds_to_remove))
 compound_names.sort()
 MAX_COUNT = data[compound_names[0]]["embedding"].shape[0]
 
-cmp_map = pd.read_csv("data/bcmm_compounds_combined_refined.csv")
-
 
 def main():    
     st.markdown("<h1 style='text-align: center; color: black;'>BCMM Compounds - SPOKE insight</h1>", unsafe_allow_html=True)
@@ -39,56 +37,127 @@ def main():
     compound_selected_sample = st.sidebar.radio("", [None] + hyperlink_names)
     st.sidebar.header("Full Search - Select Compound")
     compound_selected_search = get_search_term(compound_names)    
-    bacteria_count = sidebar_options()
+    bacteria_count, sort_by = sidebar_options()
     if compound_selected_search == DEFAULT_SELECTION and compound_selected_sample != None:
-        write_bacteria_table(compound_selected_sample, bacteria_count)
-        st.markdown("<h4 style='text-align: left; color: black;'>Explore SPOKE network for {}</h4>".format(compound_selected_sample), unsafe_allow_html=True)
-        print_vpn_warning()
-        organism_id = st.text_input("Enter NCBI ID of the Organism")
-        compound_id = cmp_map[cmp_map.compound_name==compound_selected_sample].spoke_identifier.values[0]
-        network_vis(organism_id, compound_id)
-
+        write_bacteria_table(compound_selected_sample, bacteria_count, sort_by)
+        plot_bacteria_table(compound_selected_sample)
     if compound_selected_search != DEFAULT_SELECTION and compound_selected_sample != None:
         st.markdown("<h5 style='text-align: center; color: black;'>Multiple Compound selection was made.</h5>", unsafe_allow_html=True)
         st.markdown("<h5 style='text-align: center; color: black;'>Reset either Sample or Search Compound to None</h5>", unsafe_allow_html=True)
     if compound_selected_search != DEFAULT_SELECTION and compound_selected_sample == None:
-        write_bacteria_table(compound_selected_search, bacteria_count)
-        st.markdown("<h4 style='text-align: left; color: black;'>Explore SPOKE network for {}</h4>".format(compound_selected_search), unsafe_allow_html=True)
-        print_vpn_warning()
-        organism_id = st.text_input("Enter NCBI ID of the Organism")
-        compound_id = cmp_map[cmp_map.compound_name==compound_selected_search].spoke_identifier.values[0]
-        network_vis(organism_id, compound_id)
+        write_bacteria_table(compound_selected_search, bacteria_count, sort_by)
+        plot_bacteria_table(compound_selected_search)
 
-def print_vpn_warning():
-    st.markdown(
-    '<div style="color: red;">IMPORTANT : Make sure you are connected to UCSF VPN to explore the network</div>',
-    unsafe_allow_html=True
-)
 
 
 def sidebar_options():
         bacteria_count = st.sidebar.slider('Bacteria count', MIN_COUNT, MAX_COUNT, DEFAULT_COUNT)
-        st.sidebar.markdown("<h4 style='text-align: left; color: black;'>What is embedding score?</h4>", unsafe_allow_html=True)
-        st.sidebar.markdown("<h5 style='text-align: left; color: black;'>It is the value obtained from applying personalized page rank algorithm on SPOKE graph. It represents the relative saliency of a bacterial node to the selected compound (expressed as percentile score)</h5>", unsafe_allow_html=True)
-        return bacteria_count
+        sort_by = st.sidebar.selectbox("How to sort", ["embedding score", "proximity in graph space", "proximity pvalue"], index=0)
+        st.sidebar.markdown("<h4 style='text-align: left; color: black;'>Sorting features</h4>", unsafe_allow_html=True)
+        st.sidebar.markdown("<h5 style='text-align: left; color: black;'>embedding score: It represents the relative saliency of a bacterial node to the selected compound (expressed as percentile score)</h5>", unsafe_allow_html=True)
+        st.sidebar.markdown("<h5 style='text-align: left; color: black;'>proximity in graph space: It represents the number of hops (or edges) that the bacteria is away from the compound node in SPOKE graph</h5>", unsafe_allow_html=True)
+        st.sidebar.markdown("<h5 style='text-align: left; color: black;'>proximity pvalue: Statistical significance of the above mentioned 'proximity in graph space'. ie. it represents how proximal the bacterial node is to the selected compound in SPOKE graph, compared to a random bacterial node</h5>", unsafe_allow_html=True)
+        return bacteria_count, sort_by
     
-def write_bacteria_table(compound_selected, bacteria_count):    
+def write_bacteria_table(compound_selected, bacteria_count, sort_by):    
     st.markdown("<h4 style='text-align: left; color: black;'>Top Bacterial nodes associated with {}</h4>".format(compound_selected), unsafe_allow_html=True)
-    st.write(get_bacteria_table(compound_selected, bacteria_count))
+    st.write(get_bacteria_table(compound_selected, bacteria_count, sort_by))
 
+
+def plot_bacteria_table(compound_selected):
+    data_selected = data[compound_selected]
+    data_selected["ncbi_id"] = data["ncbi_id"]
+    data_selected["name"] = data["name"]
+    data_selected_plot = pd.DataFrame(data_selected)
+    data_selected_plot = data_selected_plot[["ncbi_id", "name", "embedding", "p_value"]]
+    data_selected_plot["color"] = "gray"
+    data_selected_plot.loc[data_selected_plot["p_value"] < 0.05, "color"] = "red"
+    data_selected_plot["size"] = MARKER_SIZE
+    color_discrete_map = {"gray": "gray", "red": "red"}
+
+    fig = px.scatter(data_selected_plot, 
+                     x="p_value", y="embedding", 
+                     color="color",
+                     color_discrete_map=color_discrete_map,
+                     opacity=FIG_OPACITY, 
+                     hover_name="name",
+                     hover_data=["name"]
+                    )
+
+    fig.update_layout(
+        margin=dict(l=20, r=20, t=20, b=20),
+        width=FIG_WIDTH + 100,
+        height=FIG_HEIGHT - 300,
+        showlegend=True,
+        legend=dict(
+            title="Legend",
+            orientation="h",
+            yanchor="bottom",
+            y=1.02,
+            xanchor="right",
+            x=1,
+            font=dict(
+                size=LEGEND_SIZE
+            )
+        ),
+        xaxis=dict(
+            showgrid=True,
+            showticklabels=True,
+            tickfont=dict(size=FONT_SIZE),
+            title=dict(
+                text="Proximity p-value",
+                font=dict(size=FONT_SIZE)
+            )
+        ),
+        yaxis=dict(
+            showgrid=True,
+            showticklabels=True,
+            tickfont=dict(size=FONT_SIZE),
+            title=dict(
+                text="Embedding score",
+                font=dict(size=FONT_SIZE)
+            )
+        )
+    )
+
+    fig.update_traces(marker=dict(size=MARKER_SIZE))
+    fig.update_traces(showlegend=False)
+
+    fig.add_trace(go.Scatter(
+        x=[None],
+        y=[None],
+        mode="markers",
+        marker=dict(size=MARKER_SIZE, color="red"),
+        name="Bacteria significantly proximal (p-value<0.05) to {} in SPOKE graph".format(compound_selected)
+    ))
+    fig.add_trace(go.Scatter(
+        x=[None],
+        y=[None],
+        mode="markers",
+        marker=dict(size=MARKER_SIZE, color="gray"),
+        name="Bacteria NOT significantly proximal to {} in SPOKE graph".format(compound_selected)
+    ))
+    st.markdown("<h4 style='text-align: center; color: black;'>Distribution of entire bacteria in embedding and p-value space (associated with {})</h4>".format(compound_selected), unsafe_allow_html=True)
+    st.plotly_chart(fig)
     
     
     
                  
-def get_bacteria_table(compound_selected, bacteria_count):
+def get_bacteria_table(compound_selected, bacteria_count, sort_by):
     data_selected = data[compound_selected]
     data_selected["ncbi_id"] = data["ncbi_id"]
     data_selected["name"] = data["name"]
     data_selected_df = pd.DataFrame(data_selected)
-    data_selected_df = data_selected_df[["ncbi_id", "name", "embedding"]]
-    bacteria_df = data_selected_df.sort_values(by="embedding", ascending=False).head(bacteria_count)        
+    data_selected_df = data_selected_df[["ncbi_id", "name", "embedding", "shortest_path_length", "p_value"]]
+    if sort_by == "embedding score":
+        bacteria_df = data_selected_df.sort_values(by="embedding", ascending=False).head(bacteria_count)
+    elif sort_by == "proximity pvalue":
+        bacteria_df = data_selected_df.sort_values(by="p_value", ascending=True).head(bacteria_count)
+    else:
+        bacteria_df = data_selected_df.sort_values(by="shortest_path_length", ascending=True).head(bacteria_count)
+        
     bacteria_df.ncbi_id = bacteria_df.ncbi_id.astype(str)    
-    bacteria_df.rename(columns={"ncbi_id": "NCBI ID", "embedding": "embedding score"}, inplace=True)                
+    bacteria_df.rename(columns={"ncbi_id": "NCBI ID", "embedding": "embedding score", "shortest_path_length": "proximity in graph space", "p_value": "proximity pvalue"}, inplace=True)                
     return bacteria_df.reset_index().drop("index", axis=1)
     
 
