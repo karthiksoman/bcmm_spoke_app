@@ -1,0 +1,70 @@
+,cmp_index,Unnamed: 0,compound_name,spoke_name,spoke_identifier,annotation
+0,0,3,choline,Choline,inchikey:OEYIOHPDSNJKLS-UHFFFAOYSA-N,exact node name match
+1,1,4,bupropion,Bupropion,inchikey:SNPPWIUOZRMYNY-UHFFFAOYSA-N,exact node name match
+2,2,5,dopamine,Dopamine,inchikey:VYFYYTLLBUKUHU-UHFFFAOYSA-N,exact node name match
+3,3,21,celecoxib,Celecoxib,inchikey:RZEKVGVHFLEQIL-UHFFFAOYSA-N,exact node name match
+4,4,36,ethoxzolamide,Ethoxzolamide,inchikey:OUZWUKMCLIBBOG-UHFFFAOYSA-N,exact node name match
+5,5,91,sulfapyridine,Sulfapyridine,inchikey:GECHUMIMRBOMGK-UHFFFAOYSA-N,exact node name match
+6,6,94,sulpiride,Sulpiride,inchikey:BGRJTUBHPOOWDU-UHFFFAOYSA-N,exact node name match
+7,7,103,estradiol,Estradiol,inchikey:VOXZDWNPVJITMN-ZBRFXRBCSA-N,exact node name match
+8,8,107,chloramphenicol,Chloramphenicol,inchikey:WIIZWVCIJKGZOK-RKDXNWHRSA-N,exact node name match
+9,9,108,progesterone,Progesterone,inchikey:RJKFOVLPORLFTN-LEKSSAKUSA-N,exact node name match
+10,10,109,levodopa,Levodopa,inchikey:WTDRDQBEARUVNC-LURJTMIESA-N,exact node name match
+11,11,110,colchicine,Colchicine,inchikey:IAKHMKGGTNLKSZ-INIZCTEOSA-N,exact node name match
+12,12,119,chenodeoxycholic acid,Chenodeoxycholic acid,inchikey:RUDATBOHQWOJDD-BSWAIDMHSA-N,exact node name match
+13,13,130,doxifluridine,Doxifluridine,inchikey:ZWAOHEXOSAUJHY-ZIYNGMLESA-N,exact node name match
+14,14,136,doxorubicin,Doxorubicin,inchikey:AOJJSUZBOXZQNB-TZSSRYMLSA-N,exact node name match
+15,15,155,capecitabine,Capecitabine,inchikey:GAGWJHPBXLXJQN-UORFTKCHSA-N,exact node name match
+16,16,188,cortisone,Cortisone,inchikey:MFYSYFVPBJMHGN-ZPOLXVRWSA-N,exact node name match
+17,17,218,daidzein,Daidzein,inchikey:ZQSIJRDFPHDXIC-UHFFFAOYSA-N,exact node name match
+18,18,249,caffeic acid,Caffeic Acid,inchikey:QAIPRVGONGVQAS-DUXPYHPUSA-N,exact node name match
+19,19,253,griseofulvin,Griseofulvin,inchikey:DDUHZTYCFQRHIY-RBHXEPJQSA-N,exact node name match
+20,20,256,stevioside,Stevioside,inchikey:UEDUENGHJMELGK-HYDKPPNVSA-N,exact node name match
+21,21,261,Corticosterone,Corticosterone,inchikey:OMFXVFTZEKFJBZ-HJTSIMOOSA-N,exact node name match
+22,22,262,Estrone,Estrone,inchikey:DNXHEGUUPJUMQT-CBZIJGRNSA-N,exact node name match
+23,23,263,Progesterone,Progesterone,inchikey:RJKFOVLPORLFTN-LEKSSAKUSA-N,exact node name match
+24,24,264,Testosterone,Testosterone,inchikey:MUMGGOZAMZWBJJ-DYKIIFRCSA-N,exact node name match
+25,25,265,Pregnenolone,Pregnenolone,inchikey:ORNBQBCIOKFOEO-QGVNFLHTSA-N,exact node name match
+26,26,266,Lithocholic acid,Lithocholic acid,inchikey:SMEROWZSTRWXGI-HVATVPOCSA-N,exact node name match
+27,27,267,Dehydroepiandrosterone sulfate,Dehydroepiandrosterone sulfate,inchikey:CZWCKYRVOZZJNM-USOAJAOKSA-N,exact node name match
+28,28,270,Isolithocholic acid,Isolithocholic acid,inchikey:SMEROWZSTRWXGI-WFVDQZAMSA-N,exact node name match
+29,29,271,Cholic acid,Cholic acid,inchikey:BHQCQFFYRZLCQQ-OELDTZBJSA-N,exact node name match
+30,30,272,Deoxycholic acid,Deoxycholic Acid,inchikey:KXGVEGMKQFWNSR-LLQZFEROSA-N,exact node name match
+31,31,273,3-hydroxyanthranilic acid,3-Hydroxyanthranilic acid,inchikey:WJXSWCUQABXPFS-UHFFFAOYSA-N,exact node name match
+32,32,275,anthranilic acid,Anthranilic acid,inchikey:RWZYAGGXGHYGMB-UHFFFAOYSA-N,exact node name match
+33,33,276,indole-3-acetamide,Indole-3-acetamide,inchikey:ZOAMBXDOGPRZLP-UHFFFAOYSA-N,exact node name match
+34,34,277,indole-3-acetic acid,Indole-3-acetic acid,inchikey:SEOVTRFCIGRIMH-UHFFFAOYSA-N,exact node name match
+35,35,278,kynurenine,Kynurenine,inchikey:YGPSJZOEDVAXAB-UHFFFAOYSA-N,exact node name match
+36,36,279,melatonin,Melatonin,inchikey:DRLFMBDRBRZALE-UHFFFAOYSA-N,exact node name match
+37,37,280,N-acetyl-5-hydroxytryptamine,N-Acetyl-5-hydroxytryptamine,inchikey:MVAWJSIDNICKHF-UHFFFAOYSA-N,exact node name match
+38,38,283,quinolinic acid,Quinolinic acid,inchikey:GJAWHXHKYYXBSV-UHFFFAOYSA-N,exact node name match
+39,39,284,tryptamine,Tryptamine,inchikey:APJYDQYYACXCRM-UHFFFAOYSA-N,exact node name match
+40,40,286,5-methoxytryptamine,5-Methoxytryptamine,inchikey:JTEJPPKMYBDEMY-UHFFFAOYSA-N,exact node name match
+41,41,288,serotonin,Serotonin,inchikey:QZAYGJVTTNCVMB-UHFFFAOYSA-N,exact node name match
+42,42,289,tyramine,Tyramine,inchikey:DZGWFCGJZKJUFP-UHFFFAOYSA-N,exact node name match
+43,43,290,xanthurenic acid,Xanthurenic acid,inchikey:FBZONXHGGPHHIY-UHFFFAOYSA-N,exact node name match
+44,44,291,2-aminophenol,2-Aminophenol,inchikey:CDAWCLOXVUBKRW-UHFFFAOYSA-N,exact node name match
+45,45,292,tyrosine,Tyrosine,inchikey:OUYCCCASQSFEME-QMMMGPOBSA-N,exact node name match
+46,46,293,methionine,Methionine,inchikey:FFEARJCKVFRZRR-BYPYZUCNSA-N,exact node name match
+47,47,294,tryptophan,Tryptophan,inchikey:QIVBCDIJIAJPQS-VIFPVBQESA-N,exact node name match
+48,48,295,L-isoleucine,l-Isoleucine,inchikey:AGPKZVBTJJNPAG-WHFBIAKZSA-N,exact node name match
+49,49,305,cholic acid,cholic acid (usan),inchikey:BHQCQFFYRZLCQQ-OELDTZBJSA-N,best synonym match after string processing
+50,50,306,corticosterone,corticosterone,inchikey:OMFXVFTZEKFJBZ-HJTSIMOOSA-N,exact synonym match
+51,51,307,dehydroepiandrosterone sulfate,dehydroepiandrosterone sulfate,inchikey:CZWCKYRVOZZJNM-USOAJAOKSA-N,exact synonym match
+52,52,309,deoxycholic acid,isodeoxycholic acid,inchikey:ZHCAAZIHTDCFJX-QLEQUTGBSA-N,best synonym match after string processing
+53,53,313,estrone,estrone,inchikey:DNXHEGUUPJUMQT-CBZIJGRNSA-N,exact synonym match
+54,54,315,estrone 3-sulfate,estrone 3-sulfate,inchikey:JKKFKPJIXZFSSB-CBZIJGRNSA-N,exact synonym match
+55,55,317,isolithocholic acid,isolithocholic acid,inchikey:SMEROWZSTRWXGI-WFVDQZAMSA-N,exact synonym match
+56,56,318,lithocholic acid,lithocholic acid,inchikey:SMEROWZSTRWXGI-HVATVPOCSA-N,exact synonym match
+57,57,319,pregnanediol ,pregnanediol (jan),inchikey:YWYQTGBBEZQBGO-BERLURQNSA-N,best synonym match after string processing
+58,58,320,pregnenolone,pregnenolone,inchikey:ORNBQBCIOKFOEO-QGVNFLHTSA-N,exact synonym match
+59,59,322,testosterone,testosterone,inchikey:MUMGGOZAMZWBJJ-DYKIIFRCSA-N,exact synonym match
+60,60,328,5-hydroxy-tryptophan,5-hydroxy-tryptophan,inchikey:LDCYZAJDBXYCGN-VIFPVBQESA-N,exact synonym match
+61,61,330,indole-3-acetonitrile,indole-3-acetonitrile,inchikey:DMCPFOBLJMLSNX-UHFFFAOYSA-N,exact synonym match
+62,62,335,n-acetyl-5-hydroxytryptamine,n-acetyl-5-hydroxytryptamine,inchikey:MVAWJSIDNICKHF-UHFFFAOYSA-N,exact synonym match
+63,63,337,5-fu,5-fu,inchikey:GHASVSINZRGABV-UHFFFAOYSA-N,exact synonym match
+64,64,338,benzylpenicillin,benzylpenicillin,inchikey:JGSARLDLIJGVTE-MBNYWOFBSA-N,exact synonym match
+65,65,343,chenodiol ,chenodiol (usan),inchikey:RUDATBOHQWOJDD-BSWAIDMHSA-N,best synonym match after string processing
+66,66,349,hydrocortisone ,hydrocortisone (jp17/usp/inn),inchikey:JYGXADMDTFJGBT-VWUMJDOOSA-N,best synonym match after string processing
+67,67,359,sn-38g,sn-38g,inchikey:SSJQVDUAKDRWTA-CAYKMONMSA-N,exact synonym match
+68,68,362,ursodiol,ursodiol (usp),inchikey:RUDATBOHQWOJDD-UZVSRGJWSA-N,best synonym match after string processing
